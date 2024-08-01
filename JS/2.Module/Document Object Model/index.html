@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model (DOM)</title>
+</head>
+
+<body>
+    <h1 id="title">Hello</h1>
+    <input type="checkbox">
+    <button class="btn" style="color: red;">Click Me</button>
+    <ul id="list">
+        <li class="item"><a href="https://www.google.com">Google</a></li>
+        <li class="item">Second</li>
+        <li class="item">Third</li>
+    </ul>
+
+    <script>
+        var heading = document.firstElementChild.lastElementChild.firstElementChild;
+        heading.innerHTML = "World";
+        heading.style.color = "blue";
+        document.querySelector("input").click();
+
+        document.getElementsByTagName("li"); //We can get Elements name by tag name
+        document.getElementsByTagName("li")[2].style.color = "purple";
+        document.getElementsByClassName("btn")[0].style.color = "green";
+        document.getElementById("title");
+        document.getElementById("title").innerHTML = "Hello";
+    </script>
+</body>
+
+</html>
