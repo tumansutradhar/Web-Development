@@ -1,0 +1,36 @@
+html {
+  font-family: monospace;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+body {
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #212121;
+  color: white;
+}
+
+h1 {
+  font-family: cursive;
+}
+
+#start,
+#stop {
+  cursor: pointer;
+  font-family: monospace;
+  font-weight: bolder;
+  background-color: transparent;
+  color: white;
+  padding: 10px 20px;
+  border: solid 1px white;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
+#start:hover,
+#stop:hover {
+  background-color: white;
+  color: #161616;
+}
