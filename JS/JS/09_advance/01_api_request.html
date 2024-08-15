@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Api Request</title>
+  </head>
+
+  <body style="background-color: #212121; color: white">
+    1.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse vel
+    incidunt, velit ratione odit debitis unde neque quos officiis quae. 2.Lorem
+    ipsum dolor sit amet, consectetur adipisicing elit. Esse vel incidunt, velit
+    ratione odit debitis unde neque quos officiis quae. 3.Lorem ipsum dolor sit
+    amet, consectetur adipisicing elit. Esse vel incidunt, velit ratione odit
+    debitis unde neque quos officiis quae. 4.Lorem ipsum dolor sit amet,
+    consectetur adipisicing elit. Esse vel incidunt, velit ratione odit debitis
+    unde neque quos officiis quae.
+  </body>
+  <script>
+    const url = "https://api.github.com/users/tumansutradhar";
+    const xmlRequest = new XMLHttpRequest();
+
+    xmlRequest.open("GET", url);
+
+    xmlRequest.onreadystatechange = function () {
+      if (xmlRequest.readyState === 4) {
+        const data = JSON.parse(this.responseText);
+
+        console.log(data);
+        console.log(data.following);
+      }
+    };
+
+    xmlRequest.send();
+  </script>
+</html>
