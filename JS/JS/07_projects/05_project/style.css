@@ -1,15 +1,15 @@
-html {
-  font-family: monospace;
-  font-size: 1rem;
-  font-weight: bolder;
-}
-
 body {
   width: 500px;
   text-align: center;
   margin: 0 auto;
   background-color: #212121;
   color: white;
+}
+
+body>div {
+  font-family: monospace;
+  font-size: 1rem;
+  font-weight: bolder;
 }
 
 h1 {

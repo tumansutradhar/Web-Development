@@ -1,0 +1,59 @@
+body {
+  margin: 0 auto;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: monospace;
+  background-color: #313131;
+  color: white;
+  padding: 0 0 0 100px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-family: monospace;
+  margin: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
+nav a:hover {
+  color: rgb(255, 255, 255);
+  background-color: red;
+  border: solid 1px red;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  gap: 15px;
+  font-size: 1.5rem;
+}
+
+.project-link {
+  width: 500px;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #00fa81;
+}
+
+.project-link:hover {
+  color: rgb(255, 251, 0);
+}
