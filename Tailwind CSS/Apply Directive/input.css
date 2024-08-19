@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+
+.new {
+    @apply flex bg-yellow-500 text-white w-full;
+}
+
+@tailwind utilities;
