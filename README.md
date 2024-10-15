@@ -26,9 +26,3 @@ In addition to formal courses, I also leverage the vast resources available on Y
 ## Projects
 
 Throughout my learning journey, I've been working on various small projects to solidify my understanding of different concepts. These projects are simple yet effective in helping me grasp fundamental concepts and apply them in practical scenarios.
-
-## Contribution
-
-While this repository primarily serves my learning journey, I welcome constructive feedback, suggestions, and even collaborations from fellow learners and developers. Feel free to open issues or pull requests if you have any insights or improvements to share!
-
-Happy coding! 🚀
