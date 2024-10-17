@@ -1,12 +1,16 @@
-import { useState } from 'react'
-import './App.css'
+import "./App.css";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
     <>
-    <h1 className='bg-green-400 font-bold'>React Router Dom</h1>
+      <Header />
+      <Outlet />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
